@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/main.js serverMode=live"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.38",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.4",
+    "@types/sqlite3": "^3.1.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "config": "^3.3.6",
+    "core-js": "^3.12.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "tsyringe": "^4.5.0",
+    "yarn": "^1.22.10"
+  }
+}

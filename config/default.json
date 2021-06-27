@@ -1,0 +1,28 @@
+{
+	"debugMode": true,
+	"debugLevel": "full",
+	"caching":   {
+		"cacheTTL": "days:10"
+	},
+	"webServer": {
+		"domain":             "localhost",
+		"listenHost":         "0.0.0.0",
+		"listenPort":         6550,
+		"allowedCORSOrigins": "*",
+		"sessionCookieKey":   "kaknyckel",
+		"sessionSecret":      "1gulka9n",
+		"jwtSecret":          "r0sab1l",
+		"cors":               {
+			"credentials":    true,
+			"origin":         "*",
+			"useOldCorsMode": false
+		}
+	},
+	"database":  {
+		"dbName": "<UNSET>",
+		"dbHost": "localhost",
+		"dbUser": "<UNSET>",
+		"dbPass": "<UNSET>"
+	},
+	"wwwRoot":   "./app/wwwroot"
+}
